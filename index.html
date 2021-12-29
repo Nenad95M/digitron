@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitron</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form name="forma" id="forma" action="">
+    <input type="text" value="" name="rezultat" disabled>
+    <label for="broj1">Prvi broj</label>
+    <input type="number" name="broj1" id="broj1">
+    <label for="broj2">Drugi broj</label>
+
+    <input type="number" name="broj2" id="broj2">
+
+    <div class="btn-group">
+    <input type="button" value="+" onclick="calculation(this.form ,this.value)">
+    <input type="button" value="-"onclick="calculation(this.form ,this.value)">
+    <input type="button" value="*"onclick="calculation(this.form ,this.value)">
+    <input type="button" value="/"onclick="calculation(this.form ,this.value)">
+</div>
+
+</form>
+<script src="js/calculator.js"></script>
+</body>
+</html>

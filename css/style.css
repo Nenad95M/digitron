@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+    height: 100vh;
+}
+#forma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+#forma>input{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.btn-group{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+padding: 1rem;
+}
+.btn-group>input{
+padding:0.5rem 0.8rem;
+}
